@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color: white;
+  background-color: #1ABC9C;
+}
+
+ .row{
+  @apply flex flex-wrap
+ }
+
+ 
+ 
+
+body{
+  font-family: "Roboto", sans-serif;
+
+}
+nav{
+  transition: 1s ease-in;
+  -webkit-transition: 1s ease-in;
+  -moz-transition: 1s ease-in;
+  -ms-transition: 1s ease-in;
+  -o-transition: 1s ease-in;
+}
+.active{
+  background-color: #1ABC9C;
+  padding: 10px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+.social-icon{
+  @apply border-2 border-white py-1 px-2  rounded-full m-3;
+}
+
+.line{
+  width: 6.125rem;
+  height: .2188rem;
+  background-color: white;
+}
+
+
+
+
+
